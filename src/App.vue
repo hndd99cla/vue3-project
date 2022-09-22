@@ -1,4 +1,9 @@
-<script setup>
+<!--
+ * @Description: 
+ * @Author: lzx
+ * @Date: 2022-09-22 11:35:40
+-->
+<script setup lang="ts">
 import HelloWorld from './components/HelloWorld.vue'
 import TheWelcome from './components/TheWelcome.vue'
 </script>
@@ -9,6 +14,7 @@ import TheWelcome from './components/TheWelcome.vue'
 
     <div class="wrapper">
       <HelloWorld msg="You did it!" />
+      <b-button>组件库从我开始</b-button>
     </div>
   </header>
 
